@@ -12,6 +12,11 @@
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
+    <%= partial "layouts/navbar" %>
     <%= yield %>
+    <!-- SELECT THE ABOUT CONTENT AND INJECT HERE -->
+    <!-- SELECT THE HOME CONTENT AND INJECT HERE -->
+    <!-- SELECT THE TEAM CONTENT AND INJECT HERE -->
+    <%= partial "layouts/footer" %>
   </body>
 </html>
